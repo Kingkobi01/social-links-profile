@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Inter';
+    /* this value can be anything you wish - it gets used in the class definition below */
+    src: url('../fonts/Inter-VariableFont_slnt\,wght.ttf');
+    /* add the file path to your font here */
+}
+
+.image {
+    background-image: url(../images/avatar-jessica.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body class="font-inter bg-offBlack w-full h-screen flex justify-center items-center">
+  <main
+        class="bg-darkGrey p-8  gap-6 rounded-md flex flex-col items-center justify-center text-[14px] max-w-[90%] md:max-w-[360px]">
+    <div class=" w-[100px] h-[100px] rounded-full image"></div>
+    <div class="flex flex-col items-center justify-center">
+      <div class="text-center flex gap-2 flex-col">
+        <h1 class="text-white font-bold text-2xl">Jessica Randall</h1>
+        <h2 class="text-green font-semibold text-md">London, United Kingdom</h2>
+      </div>
+    </div>
+    <p class="text-white">"Front-end developer and avid reader."</p>
+    <ul class="flex flex-col gap-2 w-full">
+      <li
+          class="bg-grey w-full flex items-center-justify-center py-2 text-center rounded-md text-white text-md font-semibold hover:bg-green hover:text-grey duration-200 ">
+        <a class="mx-auto"
+           href="#">Github</a>
+      </li>
+      <li
+          class="bg-grey w-full flex items-center-justify-center py-2 text-center rounded-md text-white text-md font-semibold hover:bg-green hover:text-grey duration-200 ">
+        <a class="mx-auto"
+           href="#">Frontend
+          Mentor</a>
+      </li>
+      <li
+          class="bg-grey w-full flex items-center-justify-center py-2 text-center rounded-md text-white text-md font-semibold hover:bg-green hover:text-grey duration-200 ">
+        <a class="mx-auto"
+           href="#">LinkedIn</a>
+      </li>
+      <li
+          class="bg-grey w-full flex items-center-justify-center py-2 text-center rounded-md text-white text-md font-semibold hover:bg-green hover:text-grey duration-200 ">
+        <a class="mx-auto"
+           href="#">Twitter</a>
+      </li>
+      <li
+          class="bg-grey w-full flex items-center-justify-center py-2 text-center rounded-md text-white text-md font-semibold hover:bg-green hover:text-grey duration-200 ">
+        <a class="mx-auto"
+           href="#">Instagram</a>
+      </li>
+    </ul>
+  </main>
+
+  <!-- Jessica Randall
+  London, United Kingdom
+  "Front-end developer and avid reader."
+
+  GitHub
+  Frontend Mentor
+  LinkedIn
+  Twitter
+  Instagram -->
+
+</body>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          green: 'hsl(75, 94%, 57%)',
+          white: "hsl(0, 0%, 100%)",
+          grey: 'hsl(0, 0%, 20%)',
+          darkGrey: 'hsl(0, 0%, 12%)',
+          offBlack: 'hsl(0, 0%, 8%)',
+
+        },
+        fontFamily: {
+          inter: ["Inter", "sans-serif"]
+        }
+      }
+    }
+  }
+</script>
+<!-- ### Primary
+
+- Green: hsl(75, 94%, 57%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 20%)
+- Dark Grey: hsl(0, 0%, 12%)
+- Off Black: hsl(0, 0%, 8%) -->
+
+</html>
